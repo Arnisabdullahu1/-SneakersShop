@@ -1,14 +1,25 @@
+html{
+cursor: url("https://img.icons8.com/?size=30&id=HtNP66sPIlO1&format=png&color=000000"), auto;
+
+
+}
+
+
+
+
+
 a{
 color: black;
     text-decoration: none;
+    cursor: url("https://img.icons8.com/?size=30&id=HtNP66sPIlO1&format=png&color=000000"), auto;
+
 }
 
 body{
-background: linear-gradient(to left, rgb(0, 98, 255) 0%, violet 99%) ;
+background: linear-gradient(to left, rgb(0, 98, 255) 0%, rgb(221, 110, 255) 99%) ;
  font-family: "Exile", system-ui;
   font-weight: 400;
   font-style: normal;
-  cursor: a;
 }
 
 
@@ -24,11 +35,57 @@ border: 22px double black;
 border-radius: 32px;
 }
 
+nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 20px;
+background-color: aliceblue;
+border-bottom: 2px solid white;
+
+}
+ 
+.flex-contanier{
+display: flex;
+flex-wrap: wrap;
+gap: 40px;
+}
 
 
 
 
+.hero-section{
+background-image: url('images/shoes-.png');
+color: white;
+background-size: cover;
+padding: 12px;
+height: 573px;
+}
 
 
+button{
+cursor: url("https://img.icons8.com/?size=30&id=HtNP66sPIlO1&format=png&color=000000"), auto;
+color: blue;
+padding: 12px 22px;
+border: 2px solid black;
+border-radius: 12px;
+font-size: medium;
+margin-top: 400px;
+}
 
+.flex img{
+width: 255px;
+height: 255px;
 
+}
+
+.flex{
+display: flex;
+gap: 12px;
+
+}
+
+article{
+margin-top: 22px;
+position: relative;
+}
