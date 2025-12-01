@@ -16,7 +16,7 @@ color: black;
 }
 
 body{
-background: linear-gradient(to left, rgb(0, 98, 255) 0%, rgb(221, 110, 255) 99%) ;
+background: linear-gradient(to left, blue 0%,purple 100%)
  font-family: "Exile", system-ui;
   font-weight: 400;
   font-style: normal;
@@ -76,16 +76,21 @@ margin-top: 400px;
 .flex img{
 width: 255px;
 height: 255px;
-
+border-radius: 22px;
 }
 
 .flex{
 display: flex;
 gap: 12px;
-
 }
 
 article{
 margin-top: 22px;
+margin-right: 92px;
 position: relative;
-}
+ }
+
+footer{
+text-align: center;
+padding: 20px;
+background: linear-gradient(blue,purple)
